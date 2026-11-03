@@ -1,0 +1,50 @@
+{
+  "docType": "bl",
+  "fields": {
+    "blNo": {
+      "value": "MSKU-TUT-880417",
+      "confidence": 0.97
+    },
+    "blDate": {
+      "value": "T-46",
+      "confidence": 0.96
+    },
+    "shipper": {
+      "value": "COIMBATORE KNIT STUDIO LLP",
+      "confidence": 0.96
+    },
+    "consignee": {
+      "value": "HARTWELL & ROWE RETAIL LTD",
+      "confidence": 0.94
+    },
+    "quantity": {
+      "value": 3200,
+      "unit": "pcs",
+      "confidence": 0.97
+    },
+    "portLoading": {
+      "value": "INTUT",
+      "confidence": 0.93
+    },
+    "portDischarge": {
+      "value": "GBFXT",
+      "confidence": 0.92
+    },
+    "vessel": {
+      "value": "MV Nilgiri Bay",
+      "confidence": 0.95
+    },
+    "voyage": {
+      "value": "112W",
+      "confidence": 0.9
+    },
+    "containerNo": {
+      "value": "MSKU 778210-4",
+      "confidence": 0.89
+    },
+    "freight": {
+      "value": "Collect",
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "docType": "shippingBill",
+  "fields": {
+    "sbNo": {
+      "value": "4469318",
+      "confidence": 0.97
+    },
+    "sbDate": {
+      "value": "T-28",
+      "confidence": 0.96
+    },
+    "exporter": {
+      "value": "Kaveri Textiles Private Limited",
+      "confidence": 0.96
+    },
+    "consignee": {
+      "value": "Northgate Apparel Ltd",
+      "confidence": 0.95
+    },
+    "hsCode": {
+      "value": "61091000",
+      "confidence": 0.95
+    },
+    "quantity": {
+      "value": 3000,
+      "unit": "pcs",
+      "confidence": 0.97
+    },
+    "fobValue": {
+      "value": 18750,
+      "currency": "USD",
+      "confidence": 0.97
+    },
+    "portLoading": {
+      "value": "INTUT",
+      "confidence": 0.93
+    },
+    "portDischarge": {
+      "value": "GBFXT",
+      "confidence": 0.92
+    },
+    "iec": {
+      "value": "0416011234",
+      "confidence": 0.95
+    },
+    "leoDate": {
+      "value": "T-28",
+      "confidence": 0.9
+    }
+  }
+}

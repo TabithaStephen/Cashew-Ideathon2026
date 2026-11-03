@@ -1,0 +1,49 @@
+{
+  "docType": "packing",
+  "fields": {
+    "packingListNo": {
+      "value": "KT/PL/0198",
+      "confidence": 0.97
+    },
+    "date": {
+      "value": "T-29",
+      "confidence": 0.95
+    },
+    "seller": {
+      "value": "Kaveri Textiles Pvt Ltd",
+      "confidence": 0.97
+    },
+    "buyer": {
+      "value": "Northgate Apparel Limited",
+      "confidence": 0.94
+    },
+    "hsCode": {
+      "value": "610910",
+      "confidence": 0.93
+    },
+    "quantity": {
+      "value": 3000,
+      "unit": "pcs",
+      "confidence": 0.97
+    },
+    "cartons": {
+      "value": 125,
+      "confidence": 0.96,
+      "unit": "ctns"
+    },
+    "netWeight": {
+      "value": 750,
+      "confidence": 0.91,
+      "unit": "kg"
+    },
+    "grossWeight": {
+      "value": 825,
+      "confidence": 0.91,
+      "unit": "kg"
+    },
+    "marks": {
+      "value": "NORTHGATE/1-125",
+      "confidence": 0.88
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "docType": "invoice",
+  "fields": {
+    "invoiceNo": {
+      "value": "KT/2627/0231",
+      "confidence": 0.98
+    },
+    "invoiceDate": {
+      "value": "T-22",
+      "confidence": 0.97
+    },
+    "seller": {
+      "value": "Kaveri Textiles Pvt Ltd",
+      "confidence": 0.99
+    },
+    "buyer": {
+      "value": "Northgate Apparel Limited",
+      "confidence": 0.95
+    },
+    "hsCode": {
+      "value": "610910",
+      "confidence": 0.96
+    },
+    "quantity": {
+      "value": 4800,
+      "unit": "pcs",
+      "confidence": 0.98
+    },
+    "unitPrice": {
+      "value": 6.25,
+      "currency": "USD",
+      "confidence": 0.98
+    },
+    "amount": {
+      "value": 30000,
+      "currency": "USD",
+      "confidence": 0.99
+    },
+    "incoterm": {
+      "value": "FOB",
+      "confidence": 0.93
+    },
+    "portLoading": {
+      "value": "INTUT",
+      "confidence": 0.9
+    },
+    "portDischarge": {
+      "value": "GBFXT",
+      "confidence": 0.9
+    },
+    "irn": {
+      "value": "f7e2a91c4b0d3e5f6a7b8c9d0e1f2a3b4c5d6e7f8091a2b3c4d5e6f708192a3b",
+      "confidence": 0.96
+    }
+  }
+}

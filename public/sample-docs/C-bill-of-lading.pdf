@@ -1,0 +1,44 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 706 >>
+stream
+BT /F1 18 Tf 50 790 Td (BILL OF LADING) Tj ET
+BT /F1 9 Tf 50 772 Td (SAMPLE DOCUMENT - FICTIONAL - CASHEW DEMO) Tj ET
+BT /F1 11 Tf 50 740 Td (blNo: MSKU-TUT-880417) Tj ET
+BT /F1 11 Tf 50 722 Td (blDate: T-46) Tj ET
+BT /F1 11 Tf 50 704 Td (shipper: COIMBATORE KNIT STUDIO LLP) Tj ET
+BT /F1 11 Tf 50 686 Td (consignee: HARTWELL & ROWE RETAIL LTD) Tj ET
+BT /F1 11 Tf 50 668 Td (quantity: 3200 pcs) Tj ET
+BT /F1 11 Tf 50 650 Td (portLoading: INTUT) Tj ET
+BT /F1 11 Tf 50 632 Td (portDischarge: GBFXT) Tj ET
+BT /F1 11 Tf 50 614 Td (vessel: MV Nilgiri Bay) Tj ET
+BT /F1 11 Tf 50 596 Td (voyage: 112W) Tj ET
+BT /F1 11 Tf 50 578 Td (containerNo: MSKU 778210-4) Tj ET
+BT /F1 11 Tf 50 560 Td (freight: Collect) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000998 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1068
+%%EOF

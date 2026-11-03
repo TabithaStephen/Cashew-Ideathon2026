@@ -1,0 +1,60 @@
+{
+  "docType": "po",
+  "fields": {
+    "poNo": {
+      "value": "HRR-PO-20931",
+      "confidence": 0.98
+    },
+    "poDate": {
+      "value": "T-70",
+      "confidence": 0.96
+    },
+    "buyer": {
+      "value": "Hartwell and Rowe Retail Limited",
+      "confidence": 0.97
+    },
+    "seller": {
+      "value": "Coimbatore Knit Studio LLP",
+      "confidence": 0.97
+    },
+    "hsCode": {
+      "value": "610910",
+      "confidence": 0.95
+    },
+    "quantity": {
+      "value": 3200,
+      "unit": "pcs",
+      "confidence": 0.98
+    },
+    "unitPrice": {
+      "value": 6,
+      "currency": "USD",
+      "confidence": 0.98
+    },
+    "amount": {
+      "value": 19200,
+      "currency": "USD",
+      "confidence": 0.98
+    },
+    "incoterm": {
+      "value": "FOB",
+      "confidence": 0.94
+    },
+    "partialShipmentsPermitted": {
+      "value": true,
+      "confidence": 0.92
+    },
+    "portLoading": {
+      "value": "INTUT",
+      "confidence": 0.9
+    },
+    "portDischarge": {
+      "value": "GBFXT",
+      "confidence": 0.9
+    },
+    "paymentTerms": {
+      "value": "90 days from BL date",
+      "confidence": 0.93
+    }
+  }
+}

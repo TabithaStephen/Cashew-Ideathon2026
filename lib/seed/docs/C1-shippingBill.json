@@ -1,0 +1,51 @@
+{
+  "docType": "shippingBill",
+  "fields": {
+    "sbNo": {
+      "value": "4433105",
+      "confidence": 0.97
+    },
+    "sbDate": {
+      "value": "T-48",
+      "confidence": 0.96
+    },
+    "exporter": {
+      "value": "Coimbatore Knit Studio LLP",
+      "confidence": 0.96
+    },
+    "consignee": {
+      "value": "Hartwell & Rowe Retail Ltd",
+      "confidence": 0.95
+    },
+    "hsCode": {
+      "value": "61091000",
+      "confidence": 0.95
+    },
+    "quantity": {
+      "value": 3200,
+      "unit": "pcs",
+      "confidence": 0.97
+    },
+    "fobValue": {
+      "value": 18400,
+      "currency": "USD",
+      "confidence": 0.97
+    },
+    "portLoading": {
+      "value": "INTUT",
+      "confidence": 0.93
+    },
+    "portDischarge": {
+      "value": "GBFXT",
+      "confidence": 0.92
+    },
+    "iec": {
+      "value": "0419088812",
+      "confidence": 0.95
+    },
+    "leoDate": {
+      "value": "T-48",
+      "confidence": 0.9
+    }
+  }
+}

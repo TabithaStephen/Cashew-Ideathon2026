@@ -1,0 +1,60 @@
+{
+  "docType": "po",
+  "fields": {
+    "poNo": {
+      "value": "NGA-PO-55120",
+      "confidence": 0.98
+    },
+    "poDate": {
+      "value": "T-44",
+      "confidence": 0.96
+    },
+    "buyer": {
+      "value": "Northgate Apparel Ltd",
+      "confidence": 0.97
+    },
+    "seller": {
+      "value": "Kaveri Textiles Pvt Ltd",
+      "confidence": 0.97
+    },
+    "hsCode": {
+      "value": "610910",
+      "confidence": 0.95
+    },
+    "quantity": {
+      "value": 4800,
+      "unit": "pcs",
+      "confidence": 0.98
+    },
+    "unitPrice": {
+      "value": 6.25,
+      "currency": "USD",
+      "confidence": 0.98
+    },
+    "amount": {
+      "value": 30000,
+      "currency": "USD",
+      "confidence": 0.98
+    },
+    "incoterm": {
+      "value": "FOB",
+      "confidence": 0.94
+    },
+    "partialShipmentsPermitted": {
+      "value": true,
+      "confidence": 0.92
+    },
+    "portLoading": {
+      "value": "INTUT",
+      "confidence": 0.9
+    },
+    "portDischarge": {
+      "value": "GBFXT",
+      "confidence": 0.9
+    },
+    "paymentTerms": {
+      "value": "90 days from BL date",
+      "confidence": 0.93
+    }
+  }
+}

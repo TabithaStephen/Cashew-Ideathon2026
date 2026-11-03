@@ -1,0 +1,43 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 640 >>
+stream
+BT /F1 18 Tf 50 790 Td (PACKING LIST) Tj ET
+BT /F1 9 Tf 50 772 Td (SAMPLE DOCUMENT - FICTIONAL - CASHEW DEMO) Tj ET
+BT /F1 11 Tf 50 740 Td (packingListNo: KT/PL/0198) Tj ET
+BT /F1 11 Tf 50 722 Td (date: T-29) Tj ET
+BT /F1 11 Tf 50 704 Td (seller: Kaveri Textiles Pvt Ltd) Tj ET
+BT /F1 11 Tf 50 686 Td (buyer: Northgate Apparel Limited) Tj ET
+BT /F1 11 Tf 50 668 Td (hsCode: 610910) Tj ET
+BT /F1 11 Tf 50 650 Td (quantity: 3000 pcs) Tj ET
+BT /F1 11 Tf 50 632 Td (cartons: 125 ctns) Tj ET
+BT /F1 11 Tf 50 614 Td (netWeight: 750 kg) Tj ET
+BT /F1 11 Tf 50 596 Td (grossWeight: 825 kg) Tj ET
+BT /F1 11 Tf 50 578 Td (marks: NORTHGATE/1-125) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000932 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1002
+%%EOF

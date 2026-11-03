@@ -1,0 +1,49 @@
+{
+  "docType": "packing",
+  "fields": {
+    "packingListNo": {
+      "value": "CKS/PL/0188A",
+      "confidence": 0.97
+    },
+    "date": {
+      "value": "T-47",
+      "confidence": 0.95
+    },
+    "seller": {
+      "value": "Coimbatore Knit Studio LLP",
+      "confidence": 0.97
+    },
+    "buyer": {
+      "value": "Hartwell & Rowe Retail Ltd",
+      "confidence": 0.94
+    },
+    "hsCode": {
+      "value": "610910",
+      "confidence": 0.93
+    },
+    "quantity": {
+      "value": 3150,
+      "unit": "pcs",
+      "confidence": 0.97
+    },
+    "cartons": {
+      "value": 126,
+      "confidence": 0.96,
+      "unit": "ctns"
+    },
+    "netWeight": {
+      "value": 788,
+      "confidence": 0.91,
+      "unit": "kg"
+    },
+    "grossWeight": {
+      "value": 866,
+      "confidence": 0.91,
+      "unit": "kg"
+    },
+    "marks": {
+      "value": "HARTWELL/1-126",
+      "confidence": 0.88
+    }
+  }
+}

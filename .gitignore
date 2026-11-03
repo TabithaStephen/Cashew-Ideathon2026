@@ -1,0 +1,4 @@
+node_modules
+.next
+.demo-state.json
+*.tsbuildinfo
