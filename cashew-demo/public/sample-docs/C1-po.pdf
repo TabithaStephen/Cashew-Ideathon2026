@@ -1,0 +1,47 @@
+%PDF-1.4
+1 0 obj
+<</Type/Catalog/Pages 2 0 R>>
+endobj
+2 0 obj
+<</Type/Pages/Kids[3 0 R]/Count 1>>
+endobj
+3 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 595 842]/Resources<</Font<</F1 4 0 R>>>>/Contents 5 0 R>>
+endobj
+4 0 obj
+<</Type/Font/Subtype/Type1/BaseFont/Helvetica>>
+endobj
+5 0 obj
+<</Length 486>>
+stream
+BT /F1 11 Tf 50 780 Td 16 TL
+(SAMPLE DOCUMENT. FICTIONAL. NOT A REAL PURCHASE ORDER.) Tj T*
+(Purchase Order) Tj T*
+() Tj T*
+(poNo: HR-PO-20418) Tj T*
+(poDate: 2026-09-01) Tj T*
+(seller: Coimbatore Knit Studio LLP) Tj T*
+(buyer: Hartwell & Rowe Retail Ltd) Tj T*
+(hsCode: 610910) Tj T*
+(quantity: 2944 pcs) Tj T*
+(unitPrice: 6.25 USD) Tj T*
+(amount: 18400 USD) Tj T*
+(incoterm: FOB) Tj T*
+(portLoading: INTUT) Tj T*
+(portDischarge: GBFXT) Tj T*
+(partialShipmentsPermitted: true) Tj T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000054 00000 n 
+0000000105 00000 n 
+0000000217 00000 n 
+0000000280 00000 n 
+trailer<</Size 6/Root 1 0 R>>
+startxref
+815
+%%EOF

@@ -1,0 +1,30 @@
+{
+  "docType": "packing",
+  "fields": {
+    "packingNo": {
+      "value": "PL-C-0417",
+      "confidence": 0.97
+    },
+    "date": {
+      "value": "2026-09-14",
+      "confidence": 0.97
+    },
+    "seller": {
+      "value": "Coimbatore Knit Studio LLP",
+      "confidence": 0.98
+    },
+    "buyer": {
+      "value": "Hartwell & Rowe Retail Ltd",
+      "confidence": 0.95
+    },
+    "hsCode": {
+      "value": "610910",
+      "confidence": 0.96
+    },
+    "quantity": {
+      "value": 2944,
+      "confidence": 0.97,
+      "unit": "pcs"
+    }
+  }
+}

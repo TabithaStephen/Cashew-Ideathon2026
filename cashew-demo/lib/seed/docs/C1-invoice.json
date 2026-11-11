@@ -1,0 +1,56 @@
+{
+  "docType": "invoice",
+  "fields": {
+    "invoiceNo": {
+      "value": "CKS/2627/0188",
+      "confidence": 0.98
+    },
+    "invoiceDate": {
+      "value": "2026-09-14",
+      "confidence": 0.97
+    },
+    "seller": {
+      "value": "Coimbatore Knit Studio LLP",
+      "confidence": 0.99
+    },
+    "buyer": {
+      "value": "Hartwell & Rowe Retail Ltd",
+      "confidence": 0.95
+    },
+    "hsCode": {
+      "value": "610910",
+      "confidence": 0.96
+    },
+    "quantity": {
+      "value": 2944,
+      "confidence": 0.98,
+      "unit": "pcs"
+    },
+    "unitPrice": {
+      "value": 6.25,
+      "confidence": 0.98,
+      "currency": "USD"
+    },
+    "amount": {
+      "value": 18400,
+      "confidence": 0.99,
+      "currency": "USD"
+    },
+    "incoterm": {
+      "value": "FOB",
+      "confidence": 0.93
+    },
+    "portLoading": {
+      "value": "INTUT",
+      "confidence": 0.9
+    },
+    "portDischarge": {
+      "value": "GBFXT",
+      "confidence": 0.9
+    },
+    "irn": {
+      "value": "d6027be49c31f8a5e04d71c96b28f3a07e5c19d4b86a230f7c1ee95d3048ba72",
+      "confidence": 0.97
+    }
+  }
+}

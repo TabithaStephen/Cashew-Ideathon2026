@@ -1,0 +1,54 @@
+/*
+ * Cashew design tokens: the "Manifest" identity, which replaces Blueprint Section 5.2 and 5.3.
+ * See docs/competitor-ui-research-and-design-direction.md, Step 3.
+ * This is the only file allowed to contain raw colour values.
+ */
+:root {
+  /* Colour */
+  --paper: #f4f2ea;
+  --sheet: #ffffff;
+  --ink: #15181a;
+  --ink-2: #4a4f52;
+  --ink-3: #62676a;
+  --rule: #d8d4c6;
+  --accent: #f5c400;
+  --accent-press: #ddb000;
+  --pass: #1b6b45;
+  --pass-soft: #e4f1e8;
+  --fail: #b3261e;
+  --fail-press: #8f1e18;
+  --fail-soft: #fbe6e3;
+  --warn: #a34e00;
+  --warn-soft: #faebda;
+  --unknown: #46586f;
+  --unknown-soft: #e7ebf0;
+  --pending: #5e5a4e;
+  --pending-soft: #edeae0;
+
+  /* Drawer and modal scrim: 24% ink */
+  --scrim: rgba(21, 24, 26, 0.24);
+
+  /* Shape: near-square controls, square tables, no shadows */
+  --radius-control: 2px;
+
+  /* Motion. Count-up and scan-line are the two deliberate exceptions to the 120-180ms range. */
+  --motion-fast: 120ms;
+  --motion-base: 180ms;
+  --motion-count: 600ms;
+  --motion-scan: 1500ms;
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+
+  /* Layout */
+  --ribbon-height: 24px;
+  --caption-height: 0px; /* Presenter notes strip, when on. */
+  --tour-height: 0px; /* Guided demo dock, when on. */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0ms;
+    --motion-base: 0ms;
+    --motion-count: 0ms;
+    --motion-scan: 0ms;
+  }
+}

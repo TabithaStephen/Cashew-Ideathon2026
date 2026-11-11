@@ -1,0 +1,151 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background: var(--paper);
+  }
+
+  body {
+    @apply bg-paper font-sans text-body text-ink antialiased;
+    /* Clears the fixed DemoRibbon on every screen. */
+    padding-top: calc(var(--ribbon-height) + var(--caption-height));
+    min-height: 100vh;
+    padding-bottom: var(--tour-height);
+  }
+
+  h1 {
+    @apply text-h1;
+  }
+
+  h2 {
+    @apply text-h2;
+  }
+
+  /* Ink ring with a yellow halo, visible on white, paper, yellow and red alike. */
+  :focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 2px var(--accent);
+  }
+}
+
+@layer components {
+  .input {
+    @apply block min-h-11 w-full rounded-control border border-ink-3 bg-sheet px-3 py-2 text-body text-ink;
+  }
+  .input:disabled {
+    @apply cursor-not-allowed bg-paper text-ink-2;
+  }
+  .panel {
+    @apply border border-rule border-t-2 border-t-ink bg-sheet;
+  }
+  .cq {
+    container-type: inline-size;
+  }
+  .cr-text {
+    display: block;
+    min-width: 0;
+  }
+  .cr-meta {
+    margin-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 12px;
+  }
+  @container (min-width: 720px) {
+    .cr-body {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .cr-text {
+      flex: 1;
+    }
+    .cr-meta {
+      margin-top: 0;
+      flex: none;
+      display: grid;
+      grid-template-columns: 176px 112px 48px;
+    }
+    .cr-time {
+      text-align: right;
+    }
+  }
+  .docs-view {
+    display: grid;
+    gap: 16px;
+    align-items: start;
+  }
+  .docs-list {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+  .docs-detail {
+    display: grid;
+    gap: 16px;
+  }
+  @container (min-width: 860px) {
+    .docs-view {
+      grid-template-columns: 320px minmax(0, 1fr);
+    }
+    .docs-list {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .docs-detail {
+      grid-template-columns: 120px minmax(0, 1fr);
+    }
+  }
+  .ledger th,
+  .ledger td {
+    @apply border-b border-rule px-3 py-2 text-left align-top text-table;
+  }
+  .ledger thead th {
+    @apply border-b-2 border-ink whitespace-nowrap;
+  }
+  .ledger tbody tr:last-child > * {
+    border-bottom: 0;
+  }
+}
+
+@layer utilities {
+  /* Money and counts. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Mono field label. Uppercase is for Latin only: Hindi and Tamil have no case. */
+  .field-label {
+    @apply font-mono text-label text-ink-3;
+  }
+
+  .field-label:lang(en) {
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+}
+
+/* What the guided demo is pointing at. */
+[data-tour-on] {
+  outline: 3px solid var(--ink) !important;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 8px var(--accent) !important;
+  transition: box-shadow var(--motion-base) var(--ease-out);
+}
+
+/* Removes the scan-line, slide-ins and spin; state changes still show. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
